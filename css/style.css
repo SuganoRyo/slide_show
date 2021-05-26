@@ -1,0 +1,62 @@
+.slider{
+	width:80%;
+	margin:0 auto;
+  }
+  
+  img{
+	width:100%;
+  }
+  
+  .slick-slide{
+	  height:auto!important;
+  }
+  
+  .slick-next{
+    right:-60px!important;
+  }
+  
+  .slick-prev{
+    left:-60px!important;
+  }
+  
+  .slick-arrow{
+    z-index:2!important;
+  }
+  
+  .slick-arrow:before{
+    content:""!important;
+    width: 100%!important;
+    height: 100%!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .slick-next:before{
+    background: url(https://illustration-free.net/thumb/svg/ifn0401.svg)!important;
+    background-size: contain!important;
+  }
+
+  .slick-prev:before{
+    background: url(https://illustration-free.net/thumb/svg/ifn0402.svg)!important;
+    background-size: contain!important;
+  }
+  
+  .slick-arrow{
+    z-index:2!important;
+    width:60px!important;
+    height:60px!important;
+  }
+
+.slick-dots li button:before{
+	font-size:100px!important;
+}
+
+h3{
+  margin-left: 150px;
+}
+
+p{
+ margin-left: 150px;
+ margin-top: 50px;
+}
